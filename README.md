@@ -1,9 +1,12 @@
 # sandbox
 Repo for test githbu
 
-### Mermaid
+## Mermaid 🧜‍♀️
 
 ```mermaid
   graph TD;
   A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
 ```
