@@ -1,0 +1,10 @@
+name: Hola GithuActions
+on: push
+
+jobs: 
+  primera_tarea:
+    runs-on: ubuntu-latest
+    steps:
+      -uses: actions/checkout@v2
+      -name: saluddar
+        run: echo "Hola Github Actions"
