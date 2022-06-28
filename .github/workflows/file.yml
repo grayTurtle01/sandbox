@@ -6,8 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: run python file
-        run: python --version && python file.py
+      - name: multy commands
+        run: | 
+          python --version  
+          python file.py
             
         
         
