@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: hello-python
-        run: python --version
+      - name: run python file
+        run: python file.py
         
